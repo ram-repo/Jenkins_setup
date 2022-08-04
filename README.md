@@ -9,4 +9,8 @@
 6.	Access the Jenkins application on a Node Port.
 
 
+# Using Kustomize with Kubectl :
+kustomize build Jenkins_setup
 
+
+kustomize build Jenkins_setup | kubectl apply -f -
